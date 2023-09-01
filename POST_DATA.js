@@ -30,17 +30,17 @@ function POSTlineOfData(token, line){
     if (err) {
       console.log(err);
       console.log('Error!');
-    }/* else {
+    } else {
       console.log('Response: ' + body);
-      cachedData[dir + file] = sendData.CurrentLine;
-      var fileDate = varVals['YYYY'] + '-' + varVals['MM'] + '-' + varVals['DD'];
-      var today = new Date();
-      today = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2) + '-' + ('0' + today.getDate()).slice(-2);
-      if (fileDate !== today) {
-        deleteFile.Delete(dir + file);
-      }
-      fs.writeFileSync('data.json', JSON.stringify(cachedData), 'utf-8');
-    }*/
+      //cachedData[dir + file] = sendData.CurrentLine;
+      //var fileDate = varVals['YYYY'] + '-' + varVals['MM'] + '-' + varVals['DD'];
+      //var today = new Date();
+      //today = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2) + '-' + ('0' + today.getDate()).slice(-2);
+      //if (fileDate !== today) {
+        //deleteFile.Delete(dir + file);
+      //}
+      //fs.writeFileSync('data.json', JSON.stringify(cachedData), 'utf-8');
+    }
   });
 }
 
